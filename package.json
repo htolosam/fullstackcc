@@ -1,0 +1,36 @@
+{
+  "name": "demo02",
+  "version": "1.0.0",
+  "description": "Demo 2 Backend Express Typescript",
+  "main": "src/infra",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn src/infra/",
+    "start": "node src/infra/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "backend"
+  ],
+  "author": "Carlos Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.36",
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "momentsjs": "^2.27.1",
+    "mongoose": "^5.10.9",
+    "simple-node-logger": "^18.12.24",
+    "ts-node-dev": "^1.0.0-pre.65",
+    "typescript": "^4.0.3",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.10"
+  }
+}
